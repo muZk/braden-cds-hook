@@ -1,0 +1,255 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "38228-3-1637763891947-24-aa9bd6e36488e",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "38228-3",
+        "display": "Braden scale skin assessment panel"
+      }
+    ],
+    "text": "Braden scale skin assessment panel"
+  },
+  "result": [
+    {
+      "reference": "#38222-6-1637763891947-17-794796defe4518"
+    },
+    {
+      "reference": "#38229-1-1637763891947-18-35a057efe13588"
+    },
+    {
+      "reference": "#38223-4-1637763891947-19-a8ef7a96743868"
+    },
+    {
+      "reference": "#38224-2-1637763891947-20-ecf0f6696d951"
+    },
+    {
+      "reference": "#38225-9-1637763891947-21-811b14f74e46a8"
+    },
+    {
+      "reference": "#38226-7-1637763891947-22-5e9fd84988793"
+    },
+    {
+      "reference": "#38227-5-1637763891947-23-64778067a2f4e"
+    }
+  ],
+  "contained": [
+    {
+      "resourceType": "Observation",
+      "status": "final",
+      "code": {
+        "coding": [
+          {
+            "code": "38222-6",
+            "display": "Sensory perception Braden Scale"
+          }
+        ],
+        "text": "Sensory perception Braden Scale"
+      },
+      "meta": {
+        "tag": [
+          {
+            "code": "lformsVersion: 29.2.0"
+          }
+        ]
+      },
+      "id": "38222-6-1637763891947-17-794796defe4518",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA9605-2",
+            "display": "Slightly limited"
+          }
+        ],
+        "text": "Slightly limited"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "status": "final",
+      "code": {
+        "coding": [
+          {
+            "code": "38229-1",
+            "display": "Moisture exposure Braden Scale"
+          }
+        ],
+        "text": "Moisture exposure Braden Scale"
+      },
+      "meta": {
+        "tag": [
+          {
+            "code": "lformsVersion: 29.2.0"
+          }
+        ]
+      },
+      "id": "38229-1-1637763891947-18-35a057efe13588",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA9608-6",
+            "display": "Very moist"
+          }
+        ],
+        "text": "Very moist"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "status": "final",
+      "code": {
+        "coding": [
+          {
+            "code": "38223-4",
+            "display": "Physical Activity Braden Scale"
+          }
+        ],
+        "text": "Physical Activity Braden Scale"
+      },
+      "meta": {
+        "tag": [
+          {
+            "code": "lformsVersion: 29.2.0"
+          }
+        ]
+      },
+      "id": "38223-4-1637763891947-19-a8ef7a96743868",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA9613-6",
+            "display": "Walks frequently"
+          }
+        ],
+        "text": "Walks frequently"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "status": "final",
+      "code": {
+        "coding": [
+          {
+            "code": "38224-2",
+            "display": "Physical mobility Braden Scale"
+          }
+        ],
+        "text": "Physical mobility Braden Scale"
+      },
+      "meta": {
+        "tag": [
+          {
+            "code": "lformsVersion: 29.2.0"
+          }
+        ]
+      },
+      "id": "38224-2-1637763891947-20-ecf0f6696d951",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA9604-5",
+            "display": "Very limited"
+          }
+        ],
+        "text": "Very limited"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "status": "final",
+      "code": {
+        "coding": [
+          {
+            "code": "38225-9",
+            "display": "Nutrition Intake Pattern Braden Scale"
+          }
+        ],
+        "text": "Nutrition Intake Pattern Braden Scale"
+      },
+      "meta": {
+        "tag": [
+          {
+            "code": "lformsVersion: 29.2.0"
+          }
+        ]
+      },
+      "id": "38225-9-1637763891947-21-811b14f74e46a8",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA9206-9",
+            "display": "Excellent"
+          }
+        ],
+        "text": "Excellent"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "status": "final",
+      "code": {
+        "coding": [
+          {
+            "code": "38226-7",
+            "display": "Friction+Shear Braden Scale"
+          }
+        ],
+        "text": "Friction+Shear Braden Scale"
+      },
+      "meta": {
+        "tag": [
+          {
+            "code": "lformsVersion: 29.2.0"
+          }
+        ]
+      },
+      "id": "38226-7-1637763891947-22-5e9fd84988793",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA9617-7",
+            "display": "Problem"
+          }
+        ],
+        "text": "Problem"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "status": "final",
+      "code": {
+        "coding": [
+          {
+            "code": "38227-5",
+            "display": "Braden Scale Total Score"
+          }
+        ],
+        "text": "Braden Scale Total Score"
+      },
+      "meta": {
+        "tag": [
+          {
+            "code": "lformsVersion: 29.2.0"
+          }
+        ]
+      },
+      "id": "38227-5-1637763891947-23-64778067a2f4e",
+      "valueQuantity": {
+        "value": 16,
+        "unit": "{score}",
+        "code": "{score}",
+        "system": "http://unitsofmeasure.org"
+      }
+    }
+  ],
+  "meta": {
+    "tag": [
+      {
+        "code": "lformsVersion: 29.2.0"
+      }
+    ]
+  },
+  "issued": "2021-11-24T14:24:51.947Z"
+}
