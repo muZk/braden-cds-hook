@@ -12,7 +12,7 @@ Para esto, revisa la evaluación de Braden de un paciente particular (desde FHIR
 
 Notas:
 
-- Las sugerencias están basadas en el protocolo de prevención de úlceras por presión del Hospital Santiago Oriente ([fuente](http://200.72.129.100/transparencia/transparencia_activa/documentos/matroneria/protocolo_prevencion_ulceras_por_presion.pdf)
+- Las sugerencias están basadas en el protocolo de prevención de úlceras por presión del Hospital Santiago Oriente ([fuente](http://200.72.129.100/transparencia/transparencia_activa/documentos/matroneria/protocolo_prevencion_ulceras_por_presion.pdf))
 - Asume que el recurso de FHIR para guardar la evaluación de Braden es [DiagnosticReport](https://www.hl7.org/fhir/diagnosticreport.html), utilizando el formato que aparece en [LHC FHIR Tools](https://lhcforms.nlm.nih.gov/lhcforms) (bajo el nombre de "Braden scale skin assessment panel"), el cual corresponde al panel [38228-3](https://loinc.org/38228-3) en LOINC.
 
 ## Prerequisitos
