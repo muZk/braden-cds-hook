@@ -3,9 +3,9 @@ const fetch = require('node-fetch')
 const BRADEN_ASSESSMENT_PANNEL_CODE = 'http://loinc.org|38228-3'
 
 const buildBradenPanelURL = (fhirServer, patientId) =>
-  `${fhirServer}/DiagnosticReport?patient=${patientId}&code=${BRADEN_ASSESSMENT_PANNEL_CODE}&_sort:desc=date&_count=1`;
+  `${fhirServer}/DiagnosticReport?patient=${patientId}&code=${BRADEN_ASSESSMENT_PANNEL_CODE}&_sort:desc=date&_count=1`
 
-function buildMockResponse() {
+function buildMockResponse () {
   const examples = [
     require('./examples/high-risk.json'),
     require('./examples/low-risk.json'),
@@ -25,11 +25,11 @@ exports.getBradenAssessmentPanel = async function getBradenAssessmentPanel (fhir
     const bundleJson = await response.json()
 
     if (bundleJson.total === 0) {
-      return null;
+      return null
     }
 
-    return bundleJson.entry[0].resource;
+    return bundleJson.entry[0].resource
   }
 
-  return null;
+  return null
 }
