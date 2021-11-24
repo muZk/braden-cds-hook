@@ -11,17 +11,17 @@ const PORT = process.env.PORT || 5000
 app.use(cors())
 app.use(bodyParser.json())
 
-const BRADEN_SERVICE = {
-  name: 'Braden CDS Hook Demo',
-  title: 'Braden CDS Hook Demo',
-  id: 'braden-prescribe',
+const LPP_SERVICE = {
+  name: 'LPP CDS Hook Demo',
+  title: 'LPP CDS Hook Demo',
+  id: 'lpp-prevention-recommendations',
   description: 'Provide recommendations for patients at risk of pressure injuries',
   hook: 'patient-view'
 }
 
 const SERVICES = {
   services: [
-    BRADEN_SERVICE
+    LPP_SERVICE
   ]
 }
 
@@ -30,10 +30,10 @@ app.get('/cds-services', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-  res.send('Braden CDS Hook Running!')
+  res.send('LPP CDS Hook Running!')
 })
 
-app.post(`/cds-services/${BRADEN_SERVICE.id}`, asyncHandler(async (req, res) => {
+app.post(`/cds-services/${LPP_SERVICE.id}`, asyncHandler(async (req, res) => {
   const { fhirServer, context: { patientId } } = req.body
 
   const panel = await getBradenAssessmentPanel(fhirServer, patientId)
