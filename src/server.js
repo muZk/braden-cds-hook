@@ -12,10 +12,10 @@ app.use(cors())
 app.use(bodyParser.json())
 
 const LPP_SERVICE = {
-  name: 'LPP CDS Hook Demo',
-  title: 'LPP CDS Hook Demo',
-  id: 'lpp-prevention-recommendations',
-  description: 'Provide recommendations for patients at risk of pressure injuries',
+  name: 'Pressure Ulcer CDS Hook Demo',
+  title: 'Pressure Ulcer CDS Hook Demo',
+  id: 'pu-prevention-recommendations',
+  description: 'Provide recommendations for patients at risk of pressure ulcer injuries',
   hook: 'patient-view'
 }
 
