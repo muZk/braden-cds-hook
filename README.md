@@ -2,7 +2,7 @@
 
 Este proyecto esta basado en https://github.com/uwbhi/phi533-cdshook.git y es una demo de como invocar CDS-Hooks para un propósito de CDS Determinado.
 
-Puede ser invocado desde la Sandbox [sandbox](http://sandbox.cds-hooks.org/).
+Puede ser invocado desde el [Sandbox](http://sandbox.cds-hooks.org/).
 
 ## Qué hace
 
